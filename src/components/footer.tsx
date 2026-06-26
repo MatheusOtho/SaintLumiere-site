@@ -1,9 +1,4 @@
-import { ArrowUp } from 'lucide-react';
-
 export default function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <footer className="w-full bg-[#FFFFFF] text-black pt-16 pb-8 border-t border-zinc-100 selection:bg-black selection:text-white">
